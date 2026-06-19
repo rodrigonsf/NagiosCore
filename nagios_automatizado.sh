@@ -3,8 +3,9 @@
 #            Instalacao Automatizada do Nagios Core 4.4.6 - CENTOS 7       #
 # -------------------------------------------------------------------------#
 #Autor:   Rodrigo Nunes                                                    #
-#Github:  https://github.com/rodricknunes/                                 #
+#Github:  https://github.com/rodrigonsf/                                   #
 #Contato: rodrigonunes@id.uff.br                                           #
+#Contato: rodrigofernandes@tic.ufrj.br                                     #
 ############################################################################
 echo ".#####################################################."
 echo "|              DESABILITANDO O SELINUX                |"
@@ -122,4 +123,3 @@ echo "|       O NAGIOS FOI INSTALADO COM SUCESSO EM SEU CENTOS 7          |"
 echo "|  ACESSE SEU NAGIOS PELO SEU NAVEGADOR http://IP_DO_NAGIOS/nagios  |"
 echo ".###################################################################."
 echo ".                                                                   ."
-
