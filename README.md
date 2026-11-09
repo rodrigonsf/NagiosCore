@@ -1,8 +1,10 @@
+# Nagios Core Installer — Installation & Configuration Automation
+
 # Instalação automática do Nagios Core no CENTOS 7 <br> <i>(It´s automatic ♪♫)</i>
 <b>(<i>atcho tcho meri ♪♫</i>) ;-)</b>
 <br>
 Execute com <i>root</i> ou <i>sudo</i>:
-<pre><code>wget https://raw.githubusercontent.com/rodricknunes/NagiosCore/master/nagios_automatizado.sh</code>
+<pre><code>wget https://raw.githubusercontent.com/rodrigonsf/NagiosCore/master/nagios_automatizado.sh</code>
 <code>chmod 755 nagios_automatizado.sh</code>
 <code>chmod +x nagios_automatizado.sh</code>
 <code>./nagios_automatizado.sh</code></pre>
