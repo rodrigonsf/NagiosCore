@@ -1,11 +1,9 @@
 ############################################################################
 #!/bin/bash                                                                #
-#            Instalacao Automatizada do Nagios Core 4.4.6 - CENTOS 7       #
+#            Instalacao Automatizada do Nagios Core 4.5.14 - CENTOS 7       #
 # -------------------------------------------------------------------------#
 #Autor:   Rodrigo Nunes                                                    #
 #Github:  https://github.com/rodrigonsf/                                   #
-#Contato: rodrigonunes@id.uff.br                                           #
-#Contato: rodrigofernandes@tic.ufrj.br                                     #
 ############################################################################
 echo ".#####################################################."
 echo "|              DESABILITANDO O SELINUX                |"
@@ -68,13 +66,13 @@ echo ".######################################################."
 echo "|               INSTALANDO O NAGIOS CORE               |"
 echo ".######################################################."
 cd /tmp
-wget -O nagioscore.tar.gz https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.6.tar.gz -O /tmp/nagioscore.tar.gz
+wget -O nagioscore.tar.gz https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.5.14.tar.gz -O /tmp/nagioscore.tar.gz
 wget --no-check-certificate -O nagios-plugins.tar.gz https://nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz
 
 # Instalando o Nagios
 cd /tmp
 tar xzf nagioscore.tar.gz
-cd /tmp/nagioscore-nagios-4.4.6
+cd /tmp/nagioscore-nagios-4.5.14
 ./configure --with-command-group=nagcmd
 make all
 make install
