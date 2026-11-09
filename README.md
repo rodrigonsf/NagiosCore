@@ -173,8 +173,8 @@ recomendação para novas implantações em produção.
 ## Disclaimer
 
 This software is provided “as is”, without warranty of any kind.
-Review the script and assess its suitability before use.
-
+Review the script and assess its suitability before use. <i>¡La garantia soy io!</i>
+<br> <i>(It´s automatic ♪♫)</i> <b>(<i>atcho tcho meri ♪♫</i>) ;-)</b>
 ## License
 
 See [LICENSE.md](LICENSE.md).
