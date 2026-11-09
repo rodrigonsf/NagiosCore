@@ -1,4 +1,4 @@
-# Nagios Core Installer — CentOS 7
+# Nagios Core Installer - CentOS 7
 
 Automated installation and configuration of **Nagios Core 4.5.14**
 on **CentOS 7**.
